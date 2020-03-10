@@ -2,7 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db24b8c2-fd6e-462a-8653-9f9983b712ca" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework5/src/HW5Que2_i_a/SaurabhGujare_BinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework5/src/HW5Que2_j/SaurabhGujare_BinaryTree_DeleteMinMax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework5/src/HW5Que3_a/SaurabhGujare_Binarytree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework5/src/HW5Que3_b/SaurabhGujare_23tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework5/src/HW5Que3_c/SaurabhGujare_234Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework5/src/HW5Que4/SaurabhGujare_KeyIndexSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework5/src/HW5Que5/SaurabhGujare_BST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework6/src/HW6Que1c/SaurabhGujare_BTreeQ1c.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework6/src/HW6Que1e/SaurabhGujare_BTreeOrder2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework6/src/HW6Que4/SaurabhGujare_BTreeQ4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/src/RomanToInteger/RomanToInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mathworks/src/problem1/LastSubstringFromGivenString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mathworks/src/problem2/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework4/out/production/Homework4/HW4Que6/SaurabhGujare_ImgHeapSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework4/out/production/Homework4/HW4Que6/SaurabhGujare_ImgHeapSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework4/out/production/Homework4/HW4Que6/SaurabhGujare_ImgMergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework4/out/production/Homework4/HW4Que6/SaurabhGujare_ImgMergeSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework4/out/production/Homework4/HW4Que6/SaurabhGujare_ImgQuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework4/out/production/Homework4/HW4Que6/SaurabhGujare_ImgQuickSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework4/out/production/Homework4/HW4Que6/SaurabhGujare_ImgSelectionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework4/out/production/Homework4/HW4Que6/SaurabhGujare_ImgSelectionSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework4/src/HW4Que6/SaurabhGujare_ImgHeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework4/src/HW4Que6/SaurabhGujare_ImgHeapSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework4/src/HW4Que6/SaurabhGujare_ImgMergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework4/src/HW4Que6/SaurabhGujare_ImgMergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework4/src/HW4Que6/SaurabhGujare_ImgQuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework4/src/HW4Que6/SaurabhGujare_ImgQuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework4/src/HW4Que6/SaurabhGujare_ImgSelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework4/src/HW4Que6/SaurabhGujare_ImgSelectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework5/src/HW5Que1_i_a/SaurabhGujare_BinaryTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework5/src/HW5Que1_i_b/SaurabhGujare_TTtree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework5/src/HW5Que2_i_b/SaurabhGujare_TTtree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework5/src/HW5Que1_j/SaurabhGujare_BinaryTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW1Que8/MyStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW1Que8/MyStack.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,11 +37,23 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/HW1Que8/MyStack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-107">
+              <caret line="95" column="13" lean-forward="true" selection-start-line="95" selection-start-column="13" selection-end-line="95" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -58,7 +95,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -73,14 +110,29 @@
           <expand>
             <path>
               <item name="homework1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="homework1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="homework1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="homework1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="homework1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="homework1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="HW1Que8" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="homework1" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -197,9 +249,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -209,7 +262,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.15542169" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.213253" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -266,13 +319,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/Downloads/Softwares/jdk-11.0.3.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Scanner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="199">
@@ -324,10 +370,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/HW1Que8/MyStack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="106" selection-start-line="106" selection-end-line="106" />
+        <state relative-caret-position="-107">
+          <caret line="95" column="13" lean-forward="true" selection-start-line="95" selection-start-column="13" selection-end-line="95" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

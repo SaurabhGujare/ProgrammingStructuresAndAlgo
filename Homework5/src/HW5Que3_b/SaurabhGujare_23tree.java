@@ -1,4 +1,4 @@
-package HW5Que1_i_a;
+package HW5Que3_b;
 
 import java.util.Collection;
 import java.util.function.Predicate;
@@ -8,7 +8,7 @@ import java.util.function.Predicate;
  * @NUID 001424874
  */
 
-public class SaurabhGujare_TTtree<T extends Comparable<T>> {
+public class SaurabhGujare_23tree<T extends Comparable<T>> {
 
     private Node root;              // The root of the tree
 
@@ -19,14 +19,14 @@ public class SaurabhGujare_TTtree<T extends Comparable<T>> {
 
     private boolean addition;       // A flag to know if the last element has been added correctly or not
 
-    public SaurabhGujare_TTtree() {
+    public SaurabhGujare_23tree() {
 
         this.root = new Node();
 
         size = 0;
     }
 
-    public SaurabhGujare_TTtree(Collection<T> elements) {
+    public SaurabhGujare_23tree(Collection<T> elements) {
 
         this.root = new Node();
 
@@ -1003,7 +1003,8 @@ public class SaurabhGujare_TTtree<T extends Comparable<T>> {
     }
 
     public static void main(String[] args){
-        SaurabhGujare_TTtree twoThreeTree= new SaurabhGujare_TTtree();
+
+        SaurabhGujare_23tree twoThreeTree= new SaurabhGujare_23tree();
         int[] array= {3,7,9,23,45,1,5,14,5,24,13,11,8,19,4,31,35,56};
 
         for(int key: array)
@@ -1011,10 +1012,9 @@ public class SaurabhGujare_TTtree<T extends Comparable<T>> {
 
         System.out.println("Inorder Traversal: ");
         twoThreeTree.inOrder();
+
         System.out.println("\nPreorder Traversal:");
         twoThreeTree.preOrder();
-
-        twoThreeTree.find(31);
 
     }
 

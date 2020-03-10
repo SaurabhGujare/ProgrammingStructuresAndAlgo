@@ -79,13 +79,10 @@ public class SaurabhGujare_ImgMergeSort {
 
         SaurabhGujare_ImgMergeSort ob = new SaurabhGujare_ImgMergeSort();
 
-        System.out.println("\n\nArray before sort: ");
-        ob.printArray(array);
-
+        long start = System. currentTimeMillis();
         ob.splitAndMerge(array,0,array.length-1);
-
-        System.out.println("\n\nArray after MergeSort: ");
-        ob.printArray(array);
+        long end = System. currentTimeMillis();
+        System.out.println("\nTime to sort the Pixel array size of the image using merge sort is "+(end-start)+" ms");
 
     }
 }

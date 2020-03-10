@@ -53,10 +53,11 @@ public class SaurabhGujare_ImgQuickSort {
         double[] array = imgData.getIntensity();
 
         SaurabhGujare_ImgQuickSort obj = new SaurabhGujare_ImgQuickSort();
-        System.out.println("The array before sort");
-        obj.printArray(array);
+
+        long start = System. currentTimeMillis();
         obj.sort(array,0,array.length-1);
-        System.out.println("\n\nThe array after quick sort");
-        obj.printArray(array);
+        long end = System. currentTimeMillis();
+        System.out.println("\nTime to sort the Pixel array size of the image using Quick sort is "+(end-start)+" ms");
+
     }
 }

@@ -135,6 +135,7 @@ public class MyStack {
         try {
             ArrayList<String> studentList = getInputFileData(filePath);
             MyStack mystack = new MyStack();
+            System.out.println(studentList);
 
             //push 3 element into stack
             System.out.println("\n\n# Push 3 elements into stack");

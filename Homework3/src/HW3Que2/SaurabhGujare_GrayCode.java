@@ -25,9 +25,9 @@ public class SaurabhGujare_GrayCode {
 
     public static void main(String[] args){
 
-        System.out.println("For n=3\n"+grayCode(3));
+        System.out.println("For n=3\n"+grayCode(2));
 
-        for(Integer ele: grayCode(3)){
+        for(Integer ele: grayCode(2)){
             System.out.print(Integer.toBinaryString(ele)+" ");
         }
 

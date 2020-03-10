@@ -2,24 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7729062c-74ae-465e-b0eb-b570ec341ce5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/HW3Que1A/SaurabhGujare_Factorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW3Que1B/SaurabhGujare_Fibonacci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW3Que1C/SaurabhGujare_TowerOfHanoi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW3Que2/SaurabhGujare_GrayCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW3Que3/SaurabhGujare_HuffmanTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW3Que4/SaurabhGujare_Hashcode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW3Que5/SaurabhGujare_CountStringBinary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW3Que6/SaurabhGujare_User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework2/src/HW2Que3/SaurabhGujare_3_Sum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework2/src/HW2Que4/SaurabhGujare_ArrayStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework2/src/HW2Que4/SaurabhGujare_Data.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework2/src/HW2Que5/SaurabhGujare_ArrayStackResizable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework2/src/HW2Que5/SaurabhGujare_Data.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework2/src/HW2Que6/SaurabhGujare_EvaluateInfixPostfix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework2/src/HW2Que7/SaurabhGujare_ConvertInfixToPostfix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework2/src/HW2Que8/SaurabhGujare_LinkedListImplementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework2/src/HW2Que8/SaurabhGujare_TestLinkedListQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework5/src/HW5Que2_i_a/SaurabhGujare_BinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework5/src/HW5Que2_j/SaurabhGujare_BinaryTree_DeleteMinMax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework5/src/HW5Que3_a/SaurabhGujare_Binarytree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework5/src/HW5Que3_b/SaurabhGujare_23tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework5/src/HW5Que3_c/SaurabhGujare_234Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework5/src/HW5Que4/SaurabhGujare_KeyIndexSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework5/src/HW5Que5/SaurabhGujare_BST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework6/src/HW6Que1c/SaurabhGujare_BTreeQ1c.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework6/src/HW6Que1e/SaurabhGujare_BTreeOrder2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework6/src/HW6Que4/SaurabhGujare_BTreeQ4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/src/RomanToInteger/RomanToInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mathworks/src/problem1/LastSubstringFromGivenString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mathworks/src/problem2/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW3Que2/SaurabhGujare_GrayCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW3Que2/SaurabhGujare_GrayCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW3Que6/SaurabhGujare_User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW3Que6/SaurabhGujare_User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework4/out/production/Homework4/HW4Que6/SaurabhGujare_ImgHeapSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework4/out/production/Homework4/HW4Que6/SaurabhGujare_ImgHeapSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework4/out/production/Homework4/HW4Que6/SaurabhGujare_ImgMergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework4/out/production/Homework4/HW4Que6/SaurabhGujare_ImgMergeSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework4/out/production/Homework4/HW4Que6/SaurabhGujare_ImgQuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework4/out/production/Homework4/HW4Que6/SaurabhGujare_ImgQuickSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework4/out/production/Homework4/HW4Que6/SaurabhGujare_ImgSelectionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework4/out/production/Homework4/HW4Que6/SaurabhGujare_ImgSelectionSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework4/src/HW4Que6/SaurabhGujare_ImgHeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework4/src/HW4Que6/SaurabhGujare_ImgHeapSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework4/src/HW4Que6/SaurabhGujare_ImgMergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework4/src/HW4Que6/SaurabhGujare_ImgMergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework4/src/HW4Que6/SaurabhGujare_ImgQuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework4/src/HW4Que6/SaurabhGujare_ImgQuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework4/src/HW4Que6/SaurabhGujare_ImgSelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework4/src/HW4Que6/SaurabhGujare_ImgSelectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework5/src/HW5Que1_i_a/SaurabhGujare_BinaryTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework5/src/HW5Que1_i_b/SaurabhGujare_TTtree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework5/src/HW5Que2_i_b/SaurabhGujare_TTtree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework5/src/HW5Que1_j/SaurabhGujare_BinaryTree.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../homework1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../homework1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../homework1/out/production/homework1/HW1Que8/MyStack$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/../homework1/out/production/homework1/HW1Que8/MyStack$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../homework1/out/production/homework1/HW1Que8/MyStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/../homework1/out/production/homework1/HW1Que8/MyStack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../homework1/out/production/homework1/META-INF/homework1.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../homework1/src/HW1Que8/MyStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/../homework1/src/HW1Que8/MyStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../homework2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../homework2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../homework2/out/production/homework2/HW2Que3/SaurabhGujare_3_Sum.class" beforeDir="false" afterPath="$PROJECT_DIR$/../homework2/out/production/homework2/HW2Que3/SaurabhGujare_3_Sum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../homework2/out/production/homework2/HW2Que4/SaurabhGujare_ArrayStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/../homework2/out/production/homework2/HW2Que4/SaurabhGujare_ArrayStack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../homework2/out/production/homework2/HW2Que5/SaurabhGujare_ArrayStackResizable.class" beforeDir="false" afterPath="$PROJECT_DIR$/../homework2/out/production/homework2/HW2Que5/SaurabhGujare_ArrayStackResizable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../homework2/out/production/homework2/HW2Que7/SaurabhGujare_ConvertInfixToPostfix.class" beforeDir="false" afterPath="$PROJECT_DIR$/../homework2/out/production/homework2/HW2Que7/SaurabhGujare_ConvertInfixToPostfix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../homework2/out/production/homework2/HW2Que8/SaurabhGujare_LinkedListImplementation$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/../homework2/out/production/homework2/HW2Que8/SaurabhGujare_LinkedListImplementation$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../homework2/out/production/homework2/HW2Que8/SaurabhGujare_LinkedListImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/../homework2/out/production/homework2/HW2Que8/SaurabhGujare_LinkedListImplementation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../homework2/out/production/homework2/HW2Que8/SaurabhGujare_TestLinkedListQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/../homework2/out/production/homework2/HW2Que8/SaurabhGujare_TestLinkedListQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../homework2/src/HW2Que7/SaurabhGujare_ConvertInfixToPostfix.java" beforeDir="false" afterPath="$PROJECT_DIR$/../homework2/src/HW2Que7/SaurabhGujare_ConvertInfixToPostfix.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,8 +69,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/HW3Que1B/SaurabhGujare_Fibonacci.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+            <state relative-caret-position="198">
+              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -54,8 +78,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/HW3Que3/SaurabhGujare_HuffmanTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="870">
-              <caret line="62" selection-start-line="62" selection-end-line="62" />
+            <state relative-caret-position="225">
+              <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -72,7 +96,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/HW3Que1C/SaurabhGujare_TowerOfHanoi.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
@@ -84,8 +108,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/HW3Que2/SaurabhGujare_GrayCode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="30" column="57" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
+            <state relative-caret-position="450">
+              <caret line="30" column="39" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,11 +117,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/HW3Que6/SaurabhGujare_User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="705">
-              <caret line="51" column="65" selection-start-line="51" selection-start-column="65" selection-end-line="51" selection-end-column="65" />
+            <state relative-caret-position="765">
+              <caret line="51" column="66" selection-start-line="51" selection-start-column="66" selection-end-line="51" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#452#453#0" expanded="true" />
@@ -142,14 +166,14 @@
         <option value="$PROJECT_DIR$/src/HW2Que1A/SaurabhGujare_Factorial.java" />
         <option value="$PROJECT_DIR$/src/HW3Que1A/SaurabhGujare_Factorial.java" />
         <option value="$PROJECT_DIR$/src/HW3Que5/SaurabhGujare_CountStringBinary.java" />
-        <option value="$PROJECT_DIR$/src/HW3Que1B/SaurabhGujare_Fibonacci.java" />
         <option value="$PROJECT_DIR$/src/HW3Que3/SaurabhGujare_HUffmanTree.java" />
         <option value="$PROJECT_DIR$/src/HW3Que3/SaurabhGujare_HuffmanTree.java" />
         <option value="$PROJECT_DIR$/src/HW3Que4/SaurabhGujare_Hashcode.java" />
-        <option value="$PROJECT_DIR$/src/HW3Que6/SaurabhGujare_User.java" />
         <option value="$PROJECT_DIR$/src/HW3Que1C/TowerOfHanoi.java" />
         <option value="$PROJECT_DIR$/src/HW3Que1C/SaurabhGujare_TowerOfHanoi.java" />
+        <option value="$PROJECT_DIR$/src/HW3Que1B/SaurabhGujare_Fibonacci.java" />
         <option value="$PROJECT_DIR$/src/HW3Que2/SaurabhGujare_GrayCode.java" />
+        <option value="$PROJECT_DIR$/src/HW3Que6/SaurabhGujare_User.java" />
       </list>
     </option>
   </component>
@@ -161,7 +185,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -172,9 +196,82 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Homework3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Homework3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Homework3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Homework3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Homework3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Homework3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="HW3Que1A" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Homework3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Homework3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="HW3Que1B" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Homework3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Homework3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="HW3Que1C" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Homework3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Homework3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="HW3Que2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Homework3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Homework3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="HW3Que3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Homework3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Homework3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="HW3Que3" type="462c0819:PsiDirectoryNode" />
+              <item name="SaurabhGujare_HuffmanTree.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="Homework3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Homework3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="HW3Que4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Homework3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Homework3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="HW3Que5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Homework3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Homework3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="HW3Que6" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -188,13 +285,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SaurabhGujare_HuffmanTree">
-    <configuration name="SaurabhGujare_GrayCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HW3Que2.SaurabhGujare_GrayCode" />
+  <component name="RunManager" selected="Application.SaurabhGujare_User">
+    <configuration name="SaurabhGujare_Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HW3Que1B.SaurabhGujare_Fibonacci" />
       <module name="Homework3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HW3Que2.*" />
+          <option name="PATTERN" value="HW3Que1B.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -202,12 +299,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SaurabhGujare_Hashcode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HW3Que4.SaurabhGujare_Hashcode" />
+    <configuration name="SaurabhGujare_GrayCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HW3Que2.SaurabhGujare_GrayCode" />
       <module name="Homework3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HW3Que4.*" />
+          <option name="PATTERN" value="HW3Que2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -256,11 +353,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SaurabhGujare_HuffmanTree" />
-        <item itemvalue="Application.SaurabhGujare_GrayCode" />
-        <item itemvalue="Application.SaurabhGujare_TowerOfHanoi" />
         <item itemvalue="Application.SaurabhGujare_User" />
-        <item itemvalue="Application.SaurabhGujare_Hashcode" />
+        <item itemvalue="Application.SaurabhGujare_GrayCode" />
+        <item itemvalue="Application.SaurabhGujare_Fibonacci" />
+        <item itemvalue="Application.SaurabhGujare_HuffmanTree" />
+        <item itemvalue="Application.SaurabhGujare_TowerOfHanoi" />
       </list>
     </recent_temporary>
   </component>
@@ -279,8 +376,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26037195" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2639485" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -290,7 +388,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5072289" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2554217" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -320,17 +418,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/HW3Que5/SaurabhGujare_CountStringBinary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="90" selection-start-line="19" selection-start-column="90" selection-end-line="19" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HW3Que1C/SaurabhGujare_TowerOfHanoi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/HW3Que1B/SaurabhGujare_Fibonacci.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+        <state relative-caret-position="198">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/Softwares/jdk-11.0.3.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="337" column="26" selection-start-line="337" selection-start-column="26" selection-end-line="337" selection-end-column="26" />
+          <folding>
+            <element signature="e#11853#11854#0" expanded="true" />
+            <element signature="e#11899#11900#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HW3Que2/SaurabhGujare_GrayCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="39" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/HW3Que3/SaurabhGujare_HuffmanTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        <state relative-caret-position="225">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -344,39 +477,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/HW3Que2/SaurabhGujare_GrayCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="30" column="57" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/HW3Que6/SaurabhGujare_User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="51" column="65" selection-start-line="51" selection-start-column="65" selection-end-line="51" selection-end-column="65" />
+        <state relative-caret-position="765">
+          <caret line="51" column="66" selection-start-line="51" selection-start-column="66" selection-end-line="51" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#452#453#0" expanded="true" />
             <element signature="e#488#489#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/HW3Que5/SaurabhGujare_CountStringBinary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="90" selection-start-line="19" selection-start-column="90" selection-end-line="19" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/HW3Que1C/SaurabhGujare_TowerOfHanoi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>

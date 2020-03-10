@@ -55,11 +55,10 @@ public class SaurabhGujare_ImgHeapSort {
         int n = array.length;
 
         SaurabhGujare_ImgHeapSort ob = new SaurabhGujare_ImgHeapSort();
+        long start = System. currentTimeMillis();
         ob.heapSort(array, n);
-
-        for(int i=0; i<array.length;i++){
-            System.out.print(array[i]+" ");
-        }
+        long end = System. currentTimeMillis();
+        System.out.println("\nTime to sort the Pixel array size of the image using heap sort is "+(end-start)+" ms");
 
     }
 }

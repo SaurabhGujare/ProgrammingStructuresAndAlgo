@@ -28,11 +28,12 @@ public class SaurabhGujare_ImgSelectionSort {
     public static void main(String[] args){
         SaurabhGujare_ImageData imgData = new SaurabhGujare_ImageData();
         double[] array = imgData.getIntensity();
-        System.out.println("\nUnsorted Array :-");
-        printArray(array);
+
+        long start = System. currentTimeMillis();
         selectionSort(array);
-        System.out.println("\n\nSorted Array Using Selection Sort :-");
-        printArray(array);
+        long end = System. currentTimeMillis();
+        System.out.println("\nTime to sort the Pixel array size of the image using Quick sort is "+(end-start)+" ms");
+
 
 
     }

@@ -86,7 +86,9 @@ public class SaurabhGujare_ConvertInfixToPostfix {
     }
 
     public static void main(String[] args){
-        String infixExpression = "4 + 8 * 6 - 5 / 3 - 2 * 2 + 2";
+        //(4+8)*(6-5)/((3-2)*(2+2))
+        //4 + 8 * 6 - 5 / 3 - 2 * 2 + 2
+        String infixExpression = "(4+8)*(6-5)/((3-2)*(2+2)) ";
         System.out.println("Infix Expression: "+infixExpression);
         System.out.println("Postfix Expression: "+infixToPostFix(infixExpression));
     }
