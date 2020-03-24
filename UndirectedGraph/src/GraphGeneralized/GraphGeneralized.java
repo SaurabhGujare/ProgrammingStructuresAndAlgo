@@ -1,9 +1,6 @@
 package GraphGeneralized;
 
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.Map;
+import java.util.*;
 
 /**
  * @author Saurabh Gujare
@@ -72,7 +69,7 @@ public class GraphGeneralized<T> {
         // DFSUtil(v, visited)
 
 
-        //If it is discoinnected graph
+        //If it is disconnected graph
         for(T v: this.adjacentList.keySet())
             if(visited[(int)v]==false)
                 DFSUtil(v,visited);
@@ -90,6 +87,28 @@ public class GraphGeneralized<T> {
             }
         }
 
+    }
+
+    public void BFS(T v){
+        boolean[] visited = new boolean[getVertexCount()];
+
+        Queue<T> queue = new LinkedList<>();
+        visited[(int)v] = true;
+        queue.add(v);
+
+        while(!queue.isEmpty()){
+            T vertex= queue.poll();
+            System.out.print(vertex.toString()+" ");
+
+            Iterator<T> iterator = this.adjacentList.get(vertex).listIterator();
+            while(iterator.hasNext()){
+                T adjVertex = iterator.next();
+                if(!visited[(int) adjVertex]) {
+                    visited[(int) adjVertex] = true;
+                    queue.add(adjVertex);
+                }
+            }
+        }
     }
 
     @Override
@@ -112,36 +131,39 @@ public class GraphGeneralized<T> {
         // edges are added.
         // Since the graph is bidirectional,
         // so boolean bidirectional is passed as true.
-//        g.addEdge(0, 1, true);
-//        g.addEdge(0, 4, true);
-//        g.addEdge(1, 2, true);
-//        g.addEdge(1, 3, true);
-//        g.addEdge(1, 4, true);
-//        g.addEdge(2, 3, true);
-//        g.addEdge(3, 4, true);
+        g.addEdge(0, 1, true);
+        g.addEdge(0, 4, true);
+        g.addEdge(1, 2, true);
+        g.addEdge(1, 3, true);
+        g.addEdge(1, 4, true);
+        g.addEdge(2, 3, true);
+        g.addEdge(3, 4, true);
 
         // edges are added.
         // Since the graph is directional,
         // so boolean directional is passed as false
-        g.addEdge(0, 1,false);
-        g.addEdge(0, 2,false);
-        g.addEdge(1, 2,false);
-        g.addEdge(2, 0,false);
-        g.addEdge(2, 3,false);
-        g.addEdge(3, 3,false);
+//        g.addEdge(0, 1,false);
+//        g.addEdge(0, 2,false);
+//        g.addEdge(1, 2,false);
+//        g.addEdge(2, 0,false);
+//        g.addEdge(2, 3,false);
+//        g.addEdge(3, 3,false);
 
         // print the graph.
         System.out.println("Graph:\n"+ g);
 
         //
-        System.out.println("The number of vertices are "+g.getVertexCount());
+        System.out.println("\nThe number of vertices are "+g.getVertexCount());
 
         //
-        g.getEdgesCount(false);
+        g.getEdgesCount(true);
 
         //
-        System.out.println("DFS:-> ");
+        System.out.println("\nDFS:-> ");
         g.DFS();
+
+        System.out.println("\nBFS:-> ");
+        g.BFS(2);
 
     }
 }
