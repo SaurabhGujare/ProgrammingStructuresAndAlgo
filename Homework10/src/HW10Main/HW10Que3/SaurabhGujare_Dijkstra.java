@@ -1,4 +1,4 @@
-package HW10Main.HW10Que2;
+package HW10Main.HW10Que3;
 
 /**
  * @author Saurabh Gujare

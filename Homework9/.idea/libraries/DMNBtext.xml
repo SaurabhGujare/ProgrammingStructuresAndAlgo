@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="DMNBtext">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../DMNBtext1.0.1/DMNBtext.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

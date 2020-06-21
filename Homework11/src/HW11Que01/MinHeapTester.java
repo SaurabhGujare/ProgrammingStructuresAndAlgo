@@ -3,7 +3,7 @@ package HW11Que01;
  * @author Saurabh Gujare
  * @NUID 001424874
  */
-public class MaxHeapTester {
+public class MinHeapTester {
     public void runTests(){
         MinHeap<String> heap = new MinHeap<String>();
         heap.addElement("John");
@@ -17,7 +17,7 @@ public class MaxHeapTester {
         System.out.println(heap);
     }
     public static void main(String[] args) {
-        MaxHeapTester mht = new MaxHeapTester();
+        MinHeapTester mht = new MinHeapTester();
         mht.runTests();
     }
 }

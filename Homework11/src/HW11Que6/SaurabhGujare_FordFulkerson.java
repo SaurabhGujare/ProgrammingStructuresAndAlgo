@@ -6,7 +6,7 @@ import java.util.LinkedList;
  * @author Saurabh Gujare
  * @NUID 001424874
  */
-public class MaxFlow {
+public class SaurabhGujare_FordFulkerson {
     static final int V = 6;    //Number of vertices in graph
 
     /* Returns true if there is a path from source 's' to sink
@@ -114,7 +114,7 @@ public class MaxFlow {
                 {0, 0, 0, 7, 0, 4},
                 {0, 0, 0, 0, 0, 0}
         };
-        MaxFlow m = new MaxFlow();
+        SaurabhGujare_FordFulkerson m = new SaurabhGujare_FordFulkerson();
 
         System.out.println("The maximum possible flow is " +
                 m.fordFulkerson(graph, 0, 5));

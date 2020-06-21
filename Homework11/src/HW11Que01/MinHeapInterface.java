@@ -1,6 +1,6 @@
 package HW11Que01;
 
-public interface MaxHeapInterface<E> {
+public interface MinHeapInterface<E> {
     /**
      * Removes the maximum element from the heap and returns it.
      * @return

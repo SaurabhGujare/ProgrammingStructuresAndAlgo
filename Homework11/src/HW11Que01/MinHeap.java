@@ -4,7 +4,7 @@ package HW11Que01;
  * @author Saurabh Gujare
  * @NUID 001424874
  */
-public class MaxHeap<E> extends AbstractArrayBasedHeap<E> implements MaxHeapInterface<E>{
+public class MinHeap<E> extends AbstractArrayBasedHeap<E> implements MinHeapInterface<E> {
     @Override
 /**
  * Removes the root element from the min heap and returns it. In the process,

@@ -1,4 +1,4 @@
-package HW11Que01.HW11Que2a;
+package HW11Que2a;
 
 /**
  * @author Saurabh Gujare
