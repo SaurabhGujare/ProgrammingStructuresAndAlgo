@@ -34,6 +34,9 @@ public class Solution {
 
     public static void main(String[] args){
         int[] nums = new int[]{3, 10, 2, 1, 20};
+        //int[] nums = new int[]{3, 2};
+        //int[] nums = new int[]{50, 3, 10, 7, 40, 80};
+//        int[] nums = new int[]{1};
         System.out.println("The longest increasing subsequence is "+lis(nums));
     }
 }
