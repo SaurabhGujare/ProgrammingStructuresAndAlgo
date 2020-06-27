@@ -34,8 +34,10 @@ public class Solution {
                 sunk+=1;
             else{
                 for(String shipPart: shipComponent){
-                    if(hits.contains(shipPart))
+                    if(hits.contains(shipPart)){
                         hit+=1;
+                        break;
+                    }
                 }
             }
 
@@ -66,8 +68,11 @@ public class Solution {
                 fullArtifact+=1;
             else{
                 for(String artifactpart: artifactComponents)
-                    if(searchSet.contains(artifactpart))
+                    if(searchSet.contains(artifactpart)){
                         partArtifact+=1;
+                        break;
+                    }
+
             }
 
         }
