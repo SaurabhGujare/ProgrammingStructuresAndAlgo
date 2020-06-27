@@ -43,11 +43,45 @@ public class Solution {
         return ""+sunk+","+hit;
 
     }
+    public static int[] solution1(int N, String artifacts, String searched) {
+
+        // write your code in Java
+        Set<String> searchSet = new HashSet<>(Arrays.asList(searched.split(" ")));
+        String[] artifactsArr = artifacts.split(",");
+        int fullArtifact=0, partArtifact=0;
+
+        for(String artifact : artifactsArr){
+            Set<String> artifactComponents = new HashSet<>();
+
+            char top = artifact.charAt(0);
+            char left = artifact.charAt(1);
+            char bottom = artifact.charAt(3);
+            char right =  artifact.charAt(4);
+
+            for(char i=top;i<=bottom;i++)
+                for(char j=left;j<=right;j++)
+                    artifactComponents.add(""+i+j);
+
+            if(searchSet.containsAll(artifactComponents))
+                fullArtifact+=1;
+            else{
+                for(String artifactpart: artifactComponents)
+                    if(searchSet.contains(artifactpart))
+                        partArtifact+=1;
+            }
+
+        }
+
+        return new int[]{fullArtifact,partArtifact};
+
+    }
 
     public static void main(String[] args) {
         //  String ans = solution(4,"1B 2C,2D 4D","2B 2D 3D 4D 4A");
         //String ans = solution(12, "1A 2A,12A 12A", "12A");
         String ans = solution(4, "1B 2C,2D 4D", "2B 2D 3D 4D 4A");
-        System.out.println(ans);
+        //int[] ans1 = solution1(4, "1B 2C,2D 4D", "2B 2D 3D 4D 4A");
+        int[] ans1 = solution1(4, "1B 2C,4B 4C", "1B 1C 2B 2C 4B 4C");
+        System.out.println(Arrays.toString(ans1));
     }
 }
