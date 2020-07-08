@@ -5,15 +5,19 @@ package LinkedList.CompareTwoStrings;
  * @NUID 001424874
  */
 public class LinkedList {
+//    Node head;  // head of list
     static Node a, b;
 
-    static class Node{
-        int val;
+    /* Node Class */
+    static class Node {
+
+        char val;
         Node next;
 
-        public Node(int val) {
-            this.val = val;
-            this.next = null;
+        // Constructor to create a new node
+        Node(char d) {
+            val = d;
+            next = null;
         }
     }
 
@@ -41,14 +45,30 @@ public class LinkedList {
 
     }
 
-    private int compare(Node a, Node b) {
-        Node head1 = a, head2 =b;
+    private int compare(Node node1, Node node2) {
 
-        while(head1!=null && head2!=null && head1.val==head1.val){
-            head1=head1.next;
-            head2=head2.next;
+        if (node1 == null && node2 == null) {
+            return 1;
         }
 
+        while(node1!=null && node2!=null && node1.val==node2.val){
+            node1=node1.next;
+            node2=node2.next;
+
+        }
+
+        if(node1!=null && node2!=null)
+            return (node1.val>node2.val?1:-1);
+
+
+        if(node1!=null && node2==null)
+            return 1;
+
+
+        if(node1==null && node2!=null)
+            return -1;
+
+        return 0;
 
     }
 }
