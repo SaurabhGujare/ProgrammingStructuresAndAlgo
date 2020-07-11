@@ -72,15 +72,22 @@ public class LinkedList {
         int count = 0;
         Node curr = head;
         Node prevNode = null;
+        Node nextNode = null;
 
         while(count<i && curr!=null){
-            Node tempNext = curr.next;
+            nextNode = curr.next;
             curr.next = prevNode;
             prevNode = curr;
-            curr = tempNext;
+            curr = nextNode;
             count++;
         }
+        Node curr1 = prevNode;
+        while(curr1.next!=null){
+            System.out.println(curr1.data);
+            curr1 = curr1.next;
+        }
 
+        curr1.next = nextNode;
         return prevNode;
     }
 }
