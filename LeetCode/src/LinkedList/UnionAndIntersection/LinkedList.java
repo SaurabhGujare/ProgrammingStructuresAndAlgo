@@ -53,22 +53,24 @@ public class LinkedList {
         LinkedList llist1 = new LinkedList();
         LinkedList llist2 = new LinkedList();
         LinkedList union = new LinkedList();
-        LinkedList intersecn = new LinkedList();
+        LinkedList intersection = new LinkedList();
 
-        /*create a linked lits 10->15->5->20 */
+        /*create a linked list 10->15->4->20 */
         llist1.push(20);
         llist1.push(4);
         llist1.push(15);
         llist1.push(10);
 
-        /*create a linked lits 8->4->2->10 */
+        /*create a linked list 8->4->2->10 */
         llist2.push(10);
         llist2.push(2);
         llist2.push(4);
         llist2.push(8);
 
-        intersecn.getIntersection(llist1.head, llist2.head);
-        union.getUnion(llist1.head, llist2.head);
+        intersection
+                = intersection.getIntersection(llist1.head,
+                llist2.head);
+        union = union.getUnion(llist1.head, llist2.head);
 
         System.out.println("First List is");
         llist1.printList();
@@ -77,7 +79,7 @@ public class LinkedList {
         llist2.printList();
 
         System.out.println("Intersection List is");
-        intersecn.printList();
+        intersection.printList();
 
         System.out.println("Union List is");
         union.printList();
