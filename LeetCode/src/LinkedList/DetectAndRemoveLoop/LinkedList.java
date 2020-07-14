@@ -82,8 +82,9 @@ public class LinkedList {
         }
 
         //move ptr1 and ptr2 at same pace so that they will meet at the starting position of the loop
-        while(){
-
+        while(ptr1.data!=ptr2.data){
+            ptr1 = ptr1.next;
+            ptr2 = ptr2.next;
         }
 
         //get pt2 to the last node of the loop
