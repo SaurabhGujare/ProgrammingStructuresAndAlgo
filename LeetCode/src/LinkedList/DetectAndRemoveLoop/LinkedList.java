@@ -47,17 +47,16 @@ public class LinkedList {
 
     private int detectAndRemoveLoop(Node head) {
 
-        int isLoop = 0;
         Node slow = head, fast = head;
         while(slow != null){
             slow = slow.next;
             fast = fast.next.next;
             if(slow == fast){
                 remove(slow,head);
-                isLoop = 1;
+                return 1;
             }
         }
-        return isLoop;
+        return 0;
     }
 
     private void remove(Node loop, Node head) {
@@ -67,9 +66,9 @@ public class LinkedList {
         int count = 1;
         Node ptr1 = loop;
         Node ptr2 = loop;
-        while(ptr2 != ptr1){
+        while(ptr1.next != ptr2){
             count++;
-            ptr2 = ptr2.next;
+            ptr1 = ptr1.next;
         }
 
         //set ptr1 to head
@@ -82,13 +81,16 @@ public class LinkedList {
         }
 
         //move ptr1 and ptr2 at same pace so that they will meet at the starting position of the loop
-        while(ptr1.data!=ptr2.data){
+        while(ptr1!=ptr2){
             ptr1 = ptr1.next;
             ptr2 = ptr2.next;
         }
 
         //get pt2 to the last node of the loop
+        while(ptr2.next!=ptr1)
+            ptr2 = ptr2.next;
 
-        //
+        //set ptr2 to null which will remove the loop
+        ptr2.next= null;
     }
 }
