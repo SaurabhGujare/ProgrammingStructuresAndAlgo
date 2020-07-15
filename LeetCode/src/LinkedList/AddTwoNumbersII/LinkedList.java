@@ -61,8 +61,8 @@ public class LinkedList {
         list.head2 = null;
         list.result = null;
         list.carry = 0;
-        int arr1[] = { 1, 9, 9 };
-        int arr2[] = { 1, 8 };
+        int arr1[] = { 5, 6, 3 };
+        int arr2[] = { 8, 4, 2 };
 
         // Create first list as 9->9->9
         for (int i = arr1.length - 1; i >= 0; --i)
@@ -98,7 +98,6 @@ public class LinkedList {
         //calculate sums until stacks are empty
         result = new Node(0);
         int sum=0;
-        int count = 1;
         while(!stack1.isEmpty() || !stack2.isEmpty()){
             sum+= stack1.isEmpty()?0:stack1.pop();
             sum+=stack2.isEmpty()?0:stack2.pop();
@@ -107,7 +106,6 @@ public class LinkedList {
             carry.next = result;
             result = carry;
             sum/=10;
-            count+=1;
         }
 
         if(result.val==0)

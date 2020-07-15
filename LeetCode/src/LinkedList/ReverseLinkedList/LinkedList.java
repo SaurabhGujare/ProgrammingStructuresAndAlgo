@@ -83,7 +83,6 @@ public class LinkedList {
         }
         Node curr1 = prevNode;
         while(curr1.next!=null){
-            System.out.println(curr1.data);
             curr1 = curr1.next;
         }
 
