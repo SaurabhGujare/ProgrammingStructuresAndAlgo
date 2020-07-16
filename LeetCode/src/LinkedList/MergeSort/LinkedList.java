@@ -17,26 +17,6 @@ public class LinkedList {
         }
     }
 
-    Node sortedMerge(Node a, Node b)
-    {
-        Node result = null;
-        /* Base cases */
-        if (a == null)
-            return b;
-        if (b == null)
-            return a;
-
-        /* Pick either a or b, and recur */
-        if (a.val <= b.val) {
-            result = a;
-            result.next = sortedMerge(a.next, b);
-        }
-        else {
-            result = b;
-            result.next = sortedMerge(a, b.next);
-        }
-        return result;
-    }
     void push(int new_data)
     {
         /* allocate node */
@@ -75,7 +55,7 @@ public class LinkedList {
 
         // Apply merge Sort
         li.head = li.mergeSort(li.head);
-        System.out.print("\n Sorted Linked List is: \n"+);
+        System.out.print("\n Sorted Linked List is: \n");
         li.printList(li.head);
     }
 
@@ -83,9 +63,12 @@ public class LinkedList {
 
     //Function to get the middle element of th linkedlist
     public static Node getMiddle(Node head){
+        if (head == null)
+            return head;
+
         Node slow = head, fast = head;
 
-        while(fast !=null && fast.next !=null){
+        while(fast.next !=null && fast.next.next !=null){
             slow = slow.next;
             fast = fast.next.next;
         }
@@ -94,11 +77,46 @@ public class LinkedList {
     
     //Function to sort the linkeList
     private Node mergeSort(Node head) {
-        return null;
+        // Base case : if head is null
+        if (head == null || head.next == null) {
+            return head;
+        }
+
+        Node middle = getMiddle(head);
+        Node middleNext = middle.next;
+
+        //set middle's next to null
+        middle.next = null;
+
+        //Apply merge sort to the left
+        Node left = mergeSort(head);
+
+        //Apply merge sort to the right
+        Node right = mergeSort(middleNext);
+
+        //Merge the left and right list
+        Node sortedList = sortedMerge(left,right);
+
+        return sortedList;
     }
 
     //Function to merge the linked List
-    Node mergeSort(Node a, Node b){
-        return null;
+    Node sortedMerge(Node a, Node b){
+        Node result = null;
+         if(a == null)
+             return b;
+
+         if(b == null)
+             return a;
+
+         if(a.val < b.val){
+             result = a;
+             result.next = sortedMerge(a.next,b);
+         }else{
+             result = b;
+             result.next = sortedMerge(a, b.next);
+         }
+
+        return result;
     }
 }
