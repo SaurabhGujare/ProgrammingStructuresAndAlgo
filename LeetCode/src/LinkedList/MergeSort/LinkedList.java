@@ -75,7 +75,7 @@ public class LinkedList {
 
         // Apply merge Sort
         li.head = li.mergeSort(li.head);
-        System.out.print("\n Sorted Linked List is: \n");
+        System.out.print("\n Sorted Linked List is: \n"+);
         li.printList(li.head);
     }
 
@@ -83,16 +83,22 @@ public class LinkedList {
 
     //Function to get the middle element of th linkedlist
     public static Node getMiddle(Node head){
+        Node slow = head, fast = head;
 
-        
+        while(fast !=null && fast.next !=null){
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+        return slow;
     }
     
     //Function to sort the linkeList
     private Node mergeSort(Node head) {
+        return null;
     }
 
     //Function to merge the linked List
     Node mergeSort(Node a, Node b){
-
+        return null;
     }
 }
