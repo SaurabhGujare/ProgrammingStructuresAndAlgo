@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4962bd50-4f6d-41b1-acd0-be7365155af9" name="Default Changelist" comment="Longest Increasing Subsequence">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RobinhoodCodingRound/OppositeSums.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RobinhoodCodingRound/OppositeSums.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,18 +16,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BattleshipGame/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LinkedList/AddTwoNumbersII/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -46,11 +34,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LinkedList/CompareTwoStrings/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="42" column="31" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
+            <state relative-caret-position="399">
+              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/RobinhoodCodingRound/OppositeSums.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="578">
+              <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+              <folding>
+                <element signature="e#222#223#0" expanded="true" />
+                <element signature="e#246#247#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -149,6 +150,7 @@
         <option value="$PROJECT_DIR$/src/LinkedList/AddTwoNumbersII/LinkedList.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/ReverseLinkedList/LinkedList.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/MergeSort/LinkedList.java" />
+        <option value="$PROJECT_DIR$/src/RobinhoodCodingRound/OppositeSums.java" />
       </list>
     </option>
   </component>
@@ -191,6 +193,12 @@
               <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="RobinhoodCodingRound" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="TsysStudentClass" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -220,7 +228,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LinkedList">
+  <component name="RunManager" selected="Application.OppositeSums">
     <configuration name="LinkedList (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LinkedList.AddTwoNumbersII.LinkedList" />
       <module name="LeetCode" />
@@ -240,19 +248,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="LinkedList.ReverseLinkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LinkedList (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedList.UnionAndIntersection.LinkedList" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LinkedList.UnionAndIntersection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -286,13 +281,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OppositeSums" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RobinhoodCodingRound.OppositeSums" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RobinhoodCodingRound.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OppositeSums" />
         <item itemvalue="Application.LinkedList" />
         <item itemvalue="Application.LinkedList (3)" />
         <item itemvalue="Application.LinkedList (1)" />
         <item itemvalue="Application.LinkedList (5)" />
-        <item itemvalue="Application.LinkedList (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -311,6 +319,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="-180" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17092651" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -322,13 +331,13 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.25662652" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25643563" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32970297" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.2029703" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.2029703" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32771084" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -516,8 +525,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LinkedList/CompareTwoStrings/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="42" column="31" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
+        <state relative-caret-position="399">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RobinhoodCodingRound/OppositeSums.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+          <folding>
+            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
