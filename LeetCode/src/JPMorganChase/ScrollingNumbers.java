@@ -2,6 +2,9 @@ package JPMorganChase;
 
 import LinkedList.AddTwoNumbersII.LinkedList;
 
+import java.util.HashSet;
+import java.util.Set;
+
 /**
  * @author Saurabh Gujare
  * @NUID 001424874
@@ -54,31 +57,66 @@ public class ScrollingNumbers {
         }
     }
 
-    public static void findCombinations(int a, int b) {
+    public static Set<Integer> findCombinations(int a, int b) {
+        Set<Integer> output = new HashSet<>();
+        for(int i=a;i<=b;i++){
+            if(isScrollingNumber(i))
+                output.add(i);
+        }
 
+        return output;
+    }
+
+    private static boolean isScrollingNumber(int num){
+
+        Node head = buildCircularLinkedList(num);
+        int count = 0;
+        int numDigits = String.valueOf(num).length();
+        Node ptr = head;
+        Set<Integer> set = new HashSet<>();
+        while(count< numDigits){
+            int nextScroll = ptr.val;
+            for(int i=0; i<nextScroll; i++){
+                ptr = ptr.next;
+            }
+            if(!set.contains(ptr.val)){
+                set.add(ptr.val);
+            }
+            else
+                break;
+            count++;
+        }
+        return set.size() == numDigits?true:false;
     }
 
     private static Node buildCircularLinkedList(int num){
-        int length = String.valueOf(num).length();
+        int numDigits = String.valueOf(num).length();
+        if(numDigits==1){
+            Node head = new Node(num%10);
+            head.next = head;
+            return head;
+        }else{
+            Node tail = new Node(num%10);
+            Node tempTail = tail;
+            Node head = null;
 
-        Node tail = new Node(num%10);
-        Node tempTail = tail;
-        Node head = null;
-        for(int i=0;i<length-1;i++){
-            if(num==0) break;
-            num = num/10;
-            head = new Node(num%10);
-            head.next = tempTail;
-            tempTail = head;
+            for(int i=0;i<numDigits-1;i++){
+                if(num==0) break;
+                num = num/10;
+                head = new Node(num%10);
+                head.next = tempTail;
+                tempTail = head;
+            }
+
+            tail.next = head;
+            return head;
         }
-        tail.next = head;
-        return head;
     }
 
     private static void displayLinkedList(Node head, int num){
         int length = String.valueOf(num).length();
 
-        for(int i=0;i<length+3; i++){
+        for(int i=0;i<length; i++){
             System.out.print("-->"+head.val+"-->");
             head = head.next;
         }
@@ -86,7 +124,7 @@ public class ScrollingNumbers {
     }
 
     public static void main(String[] args){
-        findCombinations(100, 500);
+        System.out.print(findCombinations(100, 500).toString());
 
     }
 
